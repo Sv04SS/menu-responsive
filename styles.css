@@ -1,0 +1,75 @@
+body
+
+{
+   
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 50px;
+    margin: 0;
+    background-color:#93acf7;
+
+    
+
+}
+
+
+a
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+header
+{
+    display: flex;
+    min-height: 200px;
+    background-color:tomato;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+
+.logo
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img
+{
+    height: 230px;
+    margin-right: 10px;
+
+}
+
+
+nav a
+{
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+
+
+nav a:hover
+{
+    color: aliceblue;
+
+}
+
+@media (max-with:700px){
+
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+
+}
+
